@@ -1,38 +1,26 @@
-
-
+<?php
+    require 'data/songs_data.php';
+    foreach ($songs as $value):
+?>
+        
         <div class="card col-3" >
-            <img src="https://picsum.photos/300/200" class="card-img-top" alt="...">
+            <!--<img src="https://picsum.photos/300/200" class="card-img-top" alt="...">-->
+            <iframe width="100%" src="<?=$value['video']?>">
+            </iframe>
             <div class="card-body">
-                <h5 class="card-title">Titre 1</h5>
-                <p class="card-text">lorem20</p>
+                <h5 class="card-title"><?=$value['title']?></h5>
+                <p class="card-text"><?=$value['artist']?></p>
             </div>
             <ul class="list-group list-group-flush">
-                <li class="list-group-item">Lorem ipsum dolor sit amet.</a></li>
-                <li class="list-group-item">Lorem, ipsum dolor.</li>
-                <li class="list-group-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, vitae.</li>
+                <li class="list-group-item"><?=$value['feat']?></a></li>
+                <li class="list-group-item"><?=$value['lenght']?></a></li>
+                <li class="list-group-item"><?=$value['year']?></li>
             </ul>
             <div class="card-body">
-                <a href="#" class="card-link">en savoir plus</a>
+                <a href="#" class="card-link">En savoir plus</a>
             </div>
         </div>
         
-        <div class="card col-3" >
-            <img src="https://picsum.photos/300/200" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Titre 1</h5>
-                <p class="card-text">lorem20</p>
-            </div>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item">Lorem ipsum dolor sit amet.</a></li>
-                <li class="list-group-item">Lorem, ipsum dolor.</li>
-                <li class="list-group-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, vitae.</li>
-            </ul>
-            <div class="card-body">
-                <a href="#" class="card-link">en savoir plus</a>
-            </div>
-        </div>
-
-        
-            </div>
-        </div>
-    </div>
+<?php
+    endforeach;
+?>
