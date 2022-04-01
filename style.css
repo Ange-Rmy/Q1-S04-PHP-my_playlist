@@ -1,20 +1,21 @@
 header{
     /*background-image: url('https://picsum.photos/id/1051/2000/300');*/
-    background-image:url('https://en.pimg.jp/044/452/712/1/44452712.jpg') ;
+    background-image:url('https://st.depositphotos.com/2665985/3096/v/950/depositphotos_30960925-stock-illustration-colorful-music-notes-background-illustration.jpg') ;
     padding: 1em;
 }
 
 #header-title{
     width: 60%;
     margin: 1em 30% 1em 10%;
-    background-color: rgba(255, 255, 255, 0.75);
+    background-color: rgba(255, 255, 255, 0.85);
     color: white;
     padding: 1em;
     font-family: 'Dancing Script';
+    border-radius:10% 50%/10% 10%;
 }
 
 #header-title h1{
-    font-family: 'Dancing Script';
+    font-family: 'Rubik Glitch';
     color: rgb(0, 18, 43);
 }
 
