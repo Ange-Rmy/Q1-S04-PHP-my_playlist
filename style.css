@@ -1,17 +1,22 @@
 header{
     /*background-image: url('https://picsum.photos/id/1051/2000/300');*/
-    background-image:url('https://st.depositphotos.com/2665985/3096/v/950/depositphotos_30960925-stock-illustration-colorful-music-notes-background-illustration.jpg') ;
+    background-image:url('img/tape_bckgrnd.png');
     padding: 1em;
+    background-size: 300px;
 }
 
 #header-title{
-    width: 60%;
+    width: 65%;
     margin: 1em 30% 1em 10%;
     background-color: rgba(255, 255, 255, 0.85);
     color: white;
     padding: 1em;
     font-family: 'Dancing Script';
-    border-radius:10% 50%/10% 10%;
+    border-radius:1% 50%/40% 10%;
+}
+
+#header-title a:link{
+    text-decoration: none !important;
 }
 
 #header-title h1{
@@ -19,7 +24,7 @@ header{
     color: rgb(0, 18, 43);
 }
 
-#header-title h3{
+#header-title h4{
     font-family: 'Special Elite', cursive;
     color: rgb(0, 0, 0);
     font-weight: bolder;
