@@ -3,7 +3,7 @@
 ?>
 
 <?php
-    require 'partials/articles.php';
+    require 'partials/cards.php';
 ?>
 
         
